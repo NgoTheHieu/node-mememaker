@@ -1,0 +1,90 @@
+[
+    {
+        "fieldname": "fileUpload",
+        "originalname": "soviettank.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals",
+        "filename": "soviettank.jpg",
+        "path": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals\\soviettank.jpg",
+        "size": 9003,
+        "id": 9
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "fatKim.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals",
+        "filename": "fatKim.jpg",
+        "path": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals\\fatKim.jpg",
+        "size": 44646,
+        "id": 8
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "zlatan.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals",
+        "filename": "zlatan.jpg",
+        "path": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals\\zlatan.jpg",
+        "size": 89553,
+        "id": 7
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "soviet.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals",
+        "filename": "soviet.jpg",
+        "path": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals\\soviet.jpg",
+        "size": 127852,
+        "id": 6
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "yoda.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals",
+        "filename": "yoda.jpg",
+        "path": "C:\\Users\\ACER\\Desktop\\mojave\\RandomAssPorject\\meme-maker-master\\public\\uploads\\originals\\yoda.jpg",
+        "size": 63235,
+        "id": 5
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "kid.jpeg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/nguyennguyen/Desktop/high-sierra-projects/meme-practice/public/uploads/originals",
+        "filename": "kid.jpeg",
+        "path": "/Users/nguyennguyen/Desktop/high-sierra-projects/meme-practice/public/uploads/originals/kid.jpeg",
+        "size": 5301,
+        "id": 4
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "calculating_lady.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/nguyennguyen/Desktop/high-sierra-projects/meme-practice/public/uploads/originals",
+        "filename": "calculating_lady.jpg",
+        "path": "/Users/nguyennguyen/Desktop/high-sierra-projects/meme-practice/public/uploads/originals/calculating_lady.jpg",
+        "size": 42017,
+        "id": 3
+    },
+    {
+        "fieldname": "fileUpload",
+        "originalname": "blinking_guy.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/nguyennguyen/Desktop/high-sierra-projects/meme-practice/public/uploads/originals",
+        "filename": "blinking_guy.jpg",
+        "path": "/Users/nguyennguyen/Desktop/high-sierra-projects/meme-practice/public/uploads/originals/blinking_guy.jpg",
+        "size": 125589,
+        "id": 2
+    }
+]

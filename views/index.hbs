@@ -1,0 +1,43 @@
+<div class="header-container col-12 text-center  text-white mx-auto">
+
+<div class="header row mt-5">
+</div>
+
+{{#if error}}
+<h2 class="mt-4">{{error}}</h2>
+{{/if}}
+
+<div >Upload your own picture to create your own meme!</div>
+
+<div class="row d-flex align-items-center justify-content-center mt-3">
+<label for="fileUpload" class="custom-file-upload btn btn-info mr-2">
+    Choose File
+</label>
+<form class="b" action="/upload" class="mt-5" method="post" enctype="multipart/form-data">
+    <input type="file"
+    accept="image/jpg, image/jpeg, image/png, image/gif"
+    name="fileUpload" id="fileUpload"  />
+    File: <span id="file-upload-value">-<span class="mx-5"></span></span>
+
+    <button type="submit" class="btn btn-upload">Upload</button>
+
+
+
+</form>
+
+</div>
+
+<div class="my-2">
+</div>
+
+
+</div>
+
+<script>
+    $(function() {
+    $("input:file[id=fileUpload]").change(function() {
+        let fileNameSplit = $(this).val().split('\\')
+        $("#file-upload-value").html( fileNameSplit[fileNameSplit.length-1] );
+    });
+});
+</script>

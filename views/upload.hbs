@@ -1,0 +1,40 @@
+<div class="header-container col-12 text-center  text-white mx-auto">
+
+<div class="header">
+</div>
+
+{{#if error}}
+<h2 class="mt-4">{{error}}</h2>
+{{/if}}
+
+<div class="my-3 mb-3" style="font-size: 1.2em;">
+    <div>Upload JPG, JPEG, GIF, PNG files only</div>
+    <div>If you upload the same file (same name, same size), the picture will be rejected.</div>
+    <div>You can make memes from our default <a href="/browse">pictures</a> as well</div>
+</div>
+
+<div class="row d-flex align-items-center justify-content-center mt-5">
+<label for="fileUpload" class="custom-file-upload btn btn-danger mr-2">
+    Choose File
+</label>
+<form class="b" action="/upload" class="mt-5" method="post" enctype="multipart/form-data">
+    <input type="file"
+    accept="image/jpg, image/jpeg, image/png, image/gif"
+    name="fileUpload" id="fileUpload"  />
+    File: <span id="file-upload-value">-<span class="mx-5"></span></span>
+
+    <button type="submit" class="btn btn-upload">Upload</button>
+
+</form>
+</div>
+
+</div>
+
+<script>
+    $(function() {
+    $("input:file[id=fileUpload]").change(function() {
+        let fileNameSplit = $(this).val().split('\\')
+        $("#file-upload-value").html( fileNameSplit[fileNameSplit.length-1] );
+    });
+});
+</script>
